@@ -1,0 +1,118 @@
+img{
+  text-align: right;
+  height: 200px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: wheat;
+}
+
+h2{
+  color: whitesmoke;
+  
+}
+
+p{
+  text-align: right;
+}
+
+.pp{
+background-color: white;
+text-decoration: solid;
+}
+
+body{
+margin: 0;
+text-align: center;
+background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230526/pngtree-an-old-bookcase-in-a-library-image_2642908.jpg");
+background-size: cover;
+}
+
+option{
+background-color: white;
+}
+
+.pp:hover{
+background-color: white;
+}
+
+button{
+  box-shadow: 2px 2px black;
+  background-color: brown;
+}
+
+button:hover{
+  box-shadow: 4px 4px black;
+  background-color: salmon;
+}
+
+.dec{
+  color:  rgb(233, 109, 109);
+  font-size: large;
+  opacity:  0;
+  margin-left: -2000px;
+  margin-bottom: 40px;
+}
+
+p{
+  margin: 4px;
+  color: aqua;
+  font-size: medium;
+  font-weight: 400;
+  margin-right: 5px;
+  margin-top: -60px;
+}
+
+.pp:hover{
+  background-color: brown;
+}
+
+#check:checked  ~ .dec{
+  opacity: 1;
+  margin-left: 0;
+}
+
+#check{
+  display: none;
+}
+
+#check:checked ~ .btn_one{
+  opacity: 0;
+}
+
+.social_media i{
+  color: white;
+  font-size: x-large;
+  margin: 4px;
+}
+
+.social_media{
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: right;
+  justify-content: right;
+  margin-top: -18px;
+  margin-right: 30px;
+}
+.btn_one {
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_one i {
+  font-size: 30px; 
+  margin: 0 10px; 
+}
+
+
+
+
+
+
+
+
+
