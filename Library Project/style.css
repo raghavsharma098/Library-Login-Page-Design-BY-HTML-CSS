@@ -1,17 +1,34 @@
 img{
   text-align: right;
   height: 200px;
+  animation-name: inc;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-delay: 0.5s;
+  animation-direction: normal;
 }
 
 h1{
   text-align: center;
   text-decoration: underline;
   color: wheat;
+  animation-name: fontanim;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-delay: 0;
+  animation-timing-function: ease-in;
 }
 
 h2{
   color: whitesmoke;
-  
+  animation-name: col;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
 }
 
 p{
@@ -106,6 +123,33 @@ p{
 .btn_one i {
   font-size: 30px; 
   margin: 0 10px; 
+}
+
+@keyframes fontanim {
+from{
+margin-left: -2000px;
+}
+to{
+margin-left: 0px;
+} 
+}
+
+@keyframes col {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px white,0 0 40px pink,0 0 60px white;
+  }
+  to {
+    text-shadow: 0 0 20px pink, 0 0 30px pink,0 0 50px pink,0 0 80px pink;
+  }
+}
+
+@keyframes inc {
+  from {
+    height: 800px;
+  }
+  to {
+    height: 200px;
+  }
 }
 
 
